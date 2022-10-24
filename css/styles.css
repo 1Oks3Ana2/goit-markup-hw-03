@@ -405,7 +405,7 @@ img {
   padding-bottom: 20px;
 
   border: 1px solid var(--portfolio-border-color);
-  border-top-color: var(--main-white-color);
+  border-top-color: transparent;
 }
 
 .portfolio-title {

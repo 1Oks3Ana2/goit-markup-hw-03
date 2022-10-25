@@ -16,9 +16,9 @@ body {
   background-color: var(--main-white-color);
   font-family: 'Roboto', 'Raleway', sans-serif;
   font-size: 14px;
-  font-weight: 400;
+  /* font-weight: 400; */
   letter-spacing: 0.03em;
-  line-height: 1.2;
+  /* line-height: 1.2; */
 }
 
 h1,
@@ -214,10 +214,9 @@ img {
 }
 
 .features-title {
-  display: inline-block;
   margin-bottom: 10px;
 
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -342,7 +341,6 @@ img {
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-color);
-  font-weight: 500;
 }
 
 /* Portfolio page */
@@ -401,17 +399,14 @@ img {
 }
 
 .project-list .description {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 24px;
 
   border: 1px solid var(--portfolio-border-color);
-  border-top: none;
+  border-top-color: var(--main-white-color);
 }
 
 .portfolio-title {
-  margin-right: 24px;
   margin-bottom: 4px;
-  margin-left: 24px;
 
   font-size: 18px;
   font-weight: 700;
@@ -420,8 +415,6 @@ img {
 }
 
 .portfolio-text {
-  margin-right: 24px;
-  margin-left: 24px;
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.9;
